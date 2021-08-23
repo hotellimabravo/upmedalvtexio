@@ -1,0 +1,9 @@
+{
+  "store.home": { 
+    "blocks": [
+      "tab-layout#home"
+    ]
+  }
+}
+
+

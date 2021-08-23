@@ -1,0 +1,17 @@
+.element{
+    border: 0px;
+    border-radius: 5;
+    background-color: #212121;
+    display: flex;
+    align-items: center;
+    position: center;
+}
+.brandName {
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.sellingPriceContainer{
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,130 @@
+{
+    "tab-layout#home": {
+    "children": [
+      "tab-list#home",
+      "tab-content#home"
+    ],
+    "props": {
+      "blockClass": "home",
+      "defaultActiveTabId": "home1"
+    }
+  },
+  "tab-list#home": {
+    "children": [
+      "tab-list.item#home1",
+      "tab-list.item#home2"
+    ]
+  },
+  "tab-list.item#home1": {
+    "props": {
+      "tabId": "corinthians",
+      "label": "Corinthians",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#home2": {
+    "props": {
+      "tabId": "palmeiras",
+      "label": "Palmeiras"
+    }
+  },
+  "tab-content#home": {
+    "children": [
+      "slider-layout#carrosselhome",
+      "tab-content.item#corinthians",
+      "tab-content.item#palmeiras",
+      "flex-layout.row#form" 
+    ]
+  },
+
+  "tab-content.item#corinthians": {
+    "children": [
+      "rich-text#nome",
+      "search-result-layout.customQuery#corinthians"
+    ],
+    "props": {
+      "tabId": "corinthians"
+    }
+  },
+  "tab-content.item#palmeiras": {
+    "children": [
+      "rich-text#sobrenome",
+      "search-result-layout.customQuery#palmeiras"
+     
+    ],
+    "props": {
+      "tabId": "palmeiras"
+    }
+  },
+  "rich-text#nome": { 
+    "props": { 
+      "text": "# TODO PODEROSO TIMÃO!",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text#sobrenome": { 
+    "props": { 
+      "text": "# NÃO TEM MUNDIAL",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "rich-text": { 
+    "props": { 
+      "text": "AQUI SERIA OS BANNERS",
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "font": "t-heading-1"
+    }
+  },
+  "slider-layout#carrosselhome": {
+    "children": ["image#imagem1", "image#imagem2"],
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true,
+      "fullWidth": true,
+      "showNavigationArrows": "desktopOnly",
+      "autoPlay": {
+        "timeout": 500
+      }
+    }
+  },
+  "image#imagem1": {
+    "props": {
+      "src": "assets/banner.png",
+      "maxHeight": 300
+    }
+  },
+  "image#imagem2": {
+    "props": {
+      "src": "assets/banner1.png",
+      "maxHeight": 300
+    }
+  },
+  "flex-layout.row#form": {
+    "props": {
+    "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "fullWidth": true,
+      "blockClass": "zezinho"
+    },
+    "children": ["newsletter-form#home"]
+  },
+  "newsletter-form#home": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-input-phone",
+      "newsletter-submit"
+    ]
+  }
+}

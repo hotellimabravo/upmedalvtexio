@@ -1,0 +1,38 @@
+.sliderLayoutContainer {
+  padding-top: 75px;
+  justify-content: center;
+  background-color: #303030;
+}
+.sliderTrackContainer {
+  max-width: 1520px;
+}
+.paginationDot {
+  margin-top: 1rem;
+  margin-bottom: -2rem;
+}
+.paginationDot--isActive {
+  background-color: #59ff00;
+}
+.sliderArrows {
+  position: absolute;
+  top: 350px;
+}
+.sliderLeftArrow {
+  position: absolute;
+  left: 690px;
+}
+.sliderRightArrow {
+  position: absolute;
+  right: 690px;
+}
+.caretIcon{
+  width: 13px;
+  color: #59ff00;
+  position: relative;
+  top:21px;
+}
+.flexRow {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+}

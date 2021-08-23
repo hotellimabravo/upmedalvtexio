@@ -1,0 +1,13 @@
+.listContainer{
+    display: flex;
+    z-index: 998;
+    position: fixed;
+    background-color: #212121;
+}
+.listItem{
+    text-decoration-color: #ffff;
+}
+.listItemActive{
+    color: #ffff;
+
+}

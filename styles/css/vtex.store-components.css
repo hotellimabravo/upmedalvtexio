@@ -1,0 +1,60 @@
+.searchIcon {
+    color: #59ff00;
+}
+.autoCompleteOuterContainer {
+    border: 0px;
+    border-radius: -2rem;
+    border-color: #212121;
+}
+.imageElement {
+    border-radius: 2rem;
+}
+.searchBarContainer :global(.vtex-input-prefix__group) {
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+.logoLink {
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logoImage {
+
+    margin-left: auto;
+    margin-right: auto;
+   
+
+
+}
+.caretIcon{
+  width: 35px;
+  color: #59ff00;
+  position: relative;
+  top: 0px;
+}
+.swiperBullet--active{
+    color: #59ff00;
+
+}
+.container{
+    background-color: #303030;
+}
+.productBrand{
+    color: #ffff;
+}
+.currencyCode{
+    color: #ffff;
+}
+.currencyInteger{
+    color: #ffff;
+}
+.currencyDecimal{
+    color: #ffff;
+}
+.currencyFraction{
+    color: #ffff;
+}
+.shippingContainer{
+    color: #ffff;
+}

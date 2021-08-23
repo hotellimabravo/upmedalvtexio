@@ -1,0 +1,29 @@
+.flexCol {
+    background-color: #212121;
+}
+.flexRowContent{
+    background-color: #212121;
+    align-items: center;
+
+}
+.flexRow {
+    background-color: #303030;
+}
+.stretchChildrenWidth{
+    background-color: #303030;
+
+}
+.wrapper--layout-flex .container--layout-flex {
+    background-color: #59ff00;
+}
+.flexColChild{
+    background-color: #212121;
+    margin-top: auto;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.flexRowContent--zezinho{
+ padding-top:25px;
+ margin-bottom: 10px;
+}

@@ -1,0 +1,19 @@
+.gallery{
+    display: flex;
+    vertical-align: middle;
+}
+.galleryItem{
+    
+}
+.gallery--grid{
+    display: flex;
+    background-color: #303030;
+    margin-left: 160px;
+    margin-right: 160px;
+    
+}
+.productNameContainer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}

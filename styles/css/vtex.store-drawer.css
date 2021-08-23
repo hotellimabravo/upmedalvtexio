@@ -1,0 +1,8 @@
+.openIconContainer{
+    display: flex;
+    align-items: center;
+    position: center;
+}
+.menuIcon {
+    color: #59ff00;
+}

@@ -1,0 +1,7 @@
+.wrapper--sticky-header .container--sticky-header {
+    background-color: #212121;
+  }
+  .wrapper .container{
+    background-color: #212121;
+    position: fixed; 
+  }
